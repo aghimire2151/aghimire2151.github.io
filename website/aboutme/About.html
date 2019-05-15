@@ -1,0 +1,99 @@
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="About.css">
+    </head>
+    <body>
+    <div id="topBorder">
+    <h1><a href="../index.html">MMA ANALYTICS</a></h1>
+    <ul>
+        <li><a href="">Mens</a>
+            <ul>
+                <li><a href="../heavyweight/Heavyweight.html">HEAVYWEIGHT</a></li>
+                <li><a href="../lightheavyweight/Lightheavyweight.html">LIGHT HEAVYWEIGHT</a></li>
+                
+            </ul>
+        </li>
+        <li><a href="">Womans</a>
+            <ul>
+                <li><a href="../wfeatherweight/Featherweight.html">FEATHERWEIGHT</a></li>
+                <li><a href="../wbantamweight/Bantamweight.html">BANTAMWEIGHT</a></li>
+                
+            </ul>
+        </li>
+        <li><a href="">Predictions</a>
+            <ul>
+                <li><a href="../predictionsmens/Mens.html">MENS</a></li>
+                <li><a href="../predictionswomens/Womens.html">WOMANS</a></li>
+                
+            </ul>
+        </li>
+        <li><a href="../aboutme/About.html" target="_self">About Me</a></li>
+    </ul>
+    </div>
+    <div id="ufc">
+    <h1>Give your opinion</h1>
+    </div>
+    <div class="content">
+    <div class="contact-content">
+    <form id="contact-form">
+        <fieldset id="contact-field-set">
+            <label class="form-label">
+                Name<br>
+                <input class="input-field" type="text" name="name" placeholder="Enter your name" required>
+            </label>
+            <br>
+            <label class="form-label">
+                Email
+                <input class="input-field" type="email" name="email" placeholder="Give your email" required>
+            </label>
+            <br>
+            <label class="form-label">
+                Message
+                <textarea class="input-field" name="message" placeholder="Enter your message"></textarea>
+            </label>
+            <input id="submit-button" type="submit" name="submit" value="Send">
+        </fieldset>
+    </form>
+
+    <!--google map-->
+    <div id="map" style="width:400px;height:400px;background:yellow;float:left;padding-right:15px;overflow:hidden;"></div>
+
+    <script>
+    function myMap() {
+    var mapOptions = {
+    center: new google.maps.LatLng(	27.700769, 85.300140),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_z6FABj9YfRzEw1_JspYa-8jm8zhq3Ds&callback=myMap"></script>
+
+    <!-- -->
+
+    <aside class="author-info">
+        <img src="me.jpg" alt="Anish Ghimire">
+        <div id="introduction">
+            <h3>About me: </h3>
+            <p>I am passionate about learning new things. Currently I am learning some knowledge about MMA's UFC.
+                In the future I want to become professional analyst. I also like WWE, Boxing, movies and chilled beer ;) </p>
+        </div>
+    </aside>
+    </div>
+    </div>
+
+    <footer>
+    <p id="copyright">© 2018 Design & Implementation :
+        <a target="_blank" href="https://www.facebook.com/anish54">Anish Ghimire</a>
+    </p>
+    </footer>
+
+
+    </body>
+    </html>

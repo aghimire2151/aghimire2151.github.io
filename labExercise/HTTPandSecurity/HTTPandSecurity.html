@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTTP & Security</title>
+</head>
+<body>
+	<h2>What is Hypertext Transfer Protocol (HTTP)?</h2>
+	<p>The ypertext Transfer Protocol (HTTP) is application protocol for distributed, collaborative, hypermedia information system where hypertext document include hyperlink to other resources which can easily be assessed.
+		<h2>Why is HTTP called a stateless protocol?</h2>
+		<p> Every action that server takes or response code may be different where methods like GET, HEAD, OPTIONS are being prescribed as safe, should need to be idempotent.That's why HTTP is a stateless protocol.</p>
+		<h2>Describe the three phases of establishing a session using client-server protocols such as HTTP</h2>
+		<p>It consist of three phases like HTTP:<li>The client establish a TCP connection for appropriate connection if transport layer is not TCP.</li>
+		<li>The client send request and wait for reply.</li> 
+		<li>The server process the request providing status code and appropriate answer.</li></p>
+		<h2>Describe the parameters on a get and post request.</h2>
+		<p>GET and POST method are both used to transfer data
+			<li>GET carries the request parameter from URL string</li>
+			<li>POST carries request parameter in message body which make it secure.</li></p>
+			<h2>What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</h2>
+			<p>HTTP response ststus code are seprated into 5 categories
+				<li>1xx (Informational): The request was received, continuing process</li>
+				<li>2xx (Successful): The request was successfully received, understood, and accepted</li>
+				<li>3xx (Redirection): Further action needs to be taken in order to complete the request</li>
+				<li>4xx (Client Error): The request contains bad syntax or cannot be fulfilled</li>
+				<li>5xx (Server Error): The server failed to fulfill an apparently valid request</li>
+				<ol>HTTP 404 indicate Not Found, Page Not Found, Server Not Found</ol>
+				<ol>HTTP 200 indicate successful responses, received, understood and accepted.</ol>
+			</p>
+			<h2>What are HTTP cookies? Give an example.</h2>
+			<p>An HTTP cookie is a small piece of data sent from a websiteand stored on a user's computer by user's web browser.
+			Foe example,a web server might send a cookie containing the username that was last used to log into a website, so that it may be filled in automatically the next time the user logs in</p>
+			<h2>Why are cookies a security issue?</h2>
+			<p>Cookie is a security issue because the cookie doesn't contain any path or domain name where web server cannot validate is the legitimate cookie.</p>
+			<h2>Describe session hijacking and XSS</h2>
+			<p>Session hijacking is nothing but a type of security attack on any of the user session that is running on an internet network connection. Sometimes this method of hijacking is also referred as cookie hijacking, where the hacker gains the access to the session key and performs the operation of spoofing reliably.</p>
+			<ol>XSS enables attackers to inject client-side scripts into web pages viewed by other users.</ol>
+			<h2>Describe Cross-site request forgery(CSRF)</h2>
+			<p>Cross-site request for forgery is known as one-click attack which is type of type of malicious exploit of website where unauthorized commands are transmitted from user that web application trust.</p>
+			<h2>What are Cross-site HTTP requests (CORS) and what requests use CORS?</h2>
+			<p>Cross-site HTTP request is the mechanism that allows restricted resources on a web page to be requested from another domain outside the domain feom which first resource was served.
+
+</body>
+</html>

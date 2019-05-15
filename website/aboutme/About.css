@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#5987AF;
+}
+
+body {
+	background-color: #DFDDDD;
+	background-attachment:fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#topBorder{
+	position:relative;
+	width:100%;
+	height:80px;
+	background-color:#E9E7E7;
+	top:0;
+	left:0;
+	border-top:15px solid #F0F0F0;
+	display:inline-block;
+	z-index:2;
+}
+
+#topBorder > h1{
+	position:absolute;
+	left:15px;
+	color:#5987AF;
+	top:25%;
+}
+
+#topBorder > h1 > a{
+	text-decoration:none;
+	color:#5987AF;
+	text-shadow:1px 1px #378CBD;
+}
+
+#topBorder > ul{
+	position:absolute;
+	list-style-type: none;
+	left:25%;
+}
+
+#topBorder > ul > li{
+	float:left;
+	font-size:1.5em;
+	width:200px;
+	height:75px;
+	text-align:center;
+	line-height:80px;
+}
+
+#topBorder > ul a{
+	text-decoration:none;
+	color:#5987AF;
+	display:block;
+}
+
+#topBorder ul a:hover{
+	background-color:white;
+}
+
+#topBorder > ul > li > ul{
+	list-style-type:none;
+	font-size:0.75em;
+	background-color:#E9E7E7;
+	line-height:40px;
+}
+
+#topBorder > ul > li > ul > li{
+	display:none;
+}
+
+
+#topBorder > ul > li:hover > ul > li{
+	display:block;
+	border:1px solid #5987AF;
+}
+
+#ufc{
+	position:relative;
+	width:100%;
+	height:50px;
+	bottom:10px;
+	z-index:1;
+}
+
+#ufc > h1{
+	text-align:center;
+	background-color:#DFDDDD;
+	border-bottom:5px solid #5987AF;
+	color:#5987AF;
+	text-shadow:1px 1px black;
+}
+
+
+.content {
+    margin-top: 75px;
+    margin-bottom: 0px;
+    height: 350px;
+    
+    
+
+}
+
+#index-footer {
+    display: none;
+}
+
+#title-bar {
+    height: 130px;
+    background-color: #795548;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#bottom-bar {
+    height: 50px;
+    background-color: #795548;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+}
+
+#title-text {
+    font-family: 'IBM Plex Serif', sans-serif;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+#copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#copyright a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: gold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+    .content {
+    margin: 50px 50px 150px;
+    padding-bottom: 50px;
+        
+}
+
+#contact-form {
+    
+    height: 100%;
+    display: inline-block;
+    width: 25%;
+    padding-left: 50px;
+}
+
+.input-field {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+#contact-field-set {
+    border-radius: 10px;
+    padding: 15px 20px 15px 15px;
+}
+
+.navigation a {
+    margin-right: 15px;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+    font-family: 'Playfair Display SC', sans-serif;
+}
+
+#submit-button {
+    margin-top: 5px;
+    font-size: 18px;
+    color:#5987AF ;
+    border-bottom-style: dashed;
+    border: 2px solid #f6f7f8;
+    background: white;
+}
+
+.author-info {
+
+    width: 35%;
+    padding-left: 10px;
+    vertical-align:top;
+    display: inline-block;
+    float:right;
+}
+
+.author-info img {
+    border-radius: 50%;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#introduction {
+    margin-top: -60px;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid black;
+    text-align: center;
+}
+
+#introduction h3 {
+    margin-top: 70px;
+}
+
+#introduction p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer 
+{
+    background-color: #DFDDDD;
+    position: relative;
+    height: 50px;
+    clear: both;
+    overflow: hidden;
+    border: 3px solid #5987AF;
+}
+
+/*#bottom-bar
+{
+    position:relative;
+	width:100%;
+	height:50px;
+    background-color: whitesmoke;
+    text-align: center;
+    color: #5987AF;
+}*/
+
+#copyright
+{
+    padding:10px;
+    text-decoration-color: #5987AF;
+     color: #5987AF;
+}
+
